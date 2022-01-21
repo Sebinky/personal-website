@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive; 
+    font-weight: 50;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+hr {
+    margin: 0;
+    border: 0;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.profile {
+    background-color: #30E3CA;
+    
+}
+
+.my-experience {
+    margin: 0;
+    position: relative;
+    top: 25px;
+    bottom: 15px;
+}
+
+.skills {
+    background-color: #11999E;
+    margin: 0;
+}
+
+.education {
+    background-color: #1c7a7e;
+
+}
+
+.my-education {
+    background-color: #1c7a7e;
+    margin: 0;
+    position: relative;
+    top: 25px;
+}
+
+
+.contact-me {
+    background-color: #73817f;
+    margin: 0;
+}
+
+.get-in-touch {
+    margin: 0;
+    position: relative;
+    top: 25px;
+}
+
+.bottom-container {
+    background-color: #40514E;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+
+}
+
+.mountain-img {
+    position: relative;
+    top: 7px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.cartoon-plant {
+    margin: 0;
+    width: 100px;
+    position: relative;
+    top: 30px;
+}
+
+.beach-chairs {
+    margin: 0;
+    width: 150px;
+    position: relative;
+    top: 20px;
+}
+
+.playground {
+    margin: 0;
+    width: 150px;
+    position: relative;
+    top: 25px;
+}
