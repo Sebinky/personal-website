@@ -5,9 +5,16 @@ body {
 }
 
 h1 {
-    margin: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Pacifico', cursive; 
     font-weight: 50;
+    font-size: 300%;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 h3 {
@@ -40,14 +47,16 @@ hr {
     bottom: 15px;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 .skills {
     background-color: #11999E;
     margin: 0;
-}
-
-.education {
-    background-color: #1c7a7e;
-
 }
 
 .my-education {
@@ -55,12 +64,29 @@ hr {
     margin: 0;
     position: relative;
     top: 25px;
+    padding-bottom: 25px;
+}
+
+.education {
+    background-color: #1c7a7e;
+    margin: 0;
+}
+
+.education-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    line-height: 1.5;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
 .contact-me {
     background-color: #73817f;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .get-in-touch {
@@ -71,12 +97,14 @@ hr {
 
 .bottom-container {
     background-color: #40514E;
+    color: #11999E;
+    padding-top: 30px;
 }
 
 
 .top-cloud {
     position: absolute;
-    right: 200px;
+    right: 650px;
     top: 50px;
 
 }
@@ -91,22 +119,53 @@ hr {
 }
 
 .cartoon-plant {
-    margin: 0;
-    width: 100px;
-    position: relative;
-    top: 30px;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
 }
 
 .beach-chairs {
-    margin: 0;
-    width: 150px;
-    position: relative;
-    top: 20px;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 .playground {
-    margin: 0;
-    width: 150px;
-    position: relative;
-    top: 25px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.new-paltz-img {
+    width: 40%;
+    float: right;
+    margin-left: 5px;
+    border-radius: 10%;
+}
+
+.usyd-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+.cornell-img {
+    width: 25%;
+    float: right;
+    margin-right: 200px;
+}
+
+.brockport-img {
+    width: 30%;
+    float: left;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.brockport-hs-img {
+    width: 20%;
+    float: right;
+    margin-right: 200px;
+    border-radius: 10%;
 }
